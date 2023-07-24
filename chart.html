@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="chart.css">
+        <title>Pie Chart</title>
+    </head>
+    <body>
+        <form style="margin-bottom: 50px;">
+            <h1 class="title">Form Entry Pie Chart</h1>
+            <h3 class="txt1">Value 1:</h3>
+            <input class="lovely1" type="number" placeholder="100 percent max.." id="first" name="first" max="100">
+            <br/>
+            <h3 class="txt2">Value 2:</h3>
+            <input class="lovely2" type="number" placeholder="100 percent max.." id="second" name="second" max="100">
+            <br/>
+            <h3 class="txt3">Value 3:</h3>
+            <input class="lovely3" type="number" placeholder="100 percent max.." id="third" name="third" max="100">
+            <br/>
+            <h3 class="txt4">Value 4:</h3>
+            <input class="lovely4" type="number" placeholder="100 percent max.." id="fourth" name="fourth" max="100">
+            <br/>
+        </form>
+
+        <button type="button" name="submit" class="pc" id="redraw">Re-Graph</button>
+
+        <section>
+            <div>
+                <canvas class="pie" id="canvas" width="400" height="300"></canvas>
+            </div>
+        </section>
+        <script type="text/javascript" src="chart.js"></script> 
+    </body>
+</html>
